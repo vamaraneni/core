@@ -6,7 +6,11 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>18a3796f-bfdd-41d5-891b-cb97d5154d99</ProjectGuid>
+=======
+    <ProjectGuid>e84732d1-4b9b-4f2e-afcc-48231f0e73ef</ProjectGuid>
+>>>>>>> 0050b03479ea624b5e9b0976ef6bca7f66fdc50d
     <RootNamespace>helloworld</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
